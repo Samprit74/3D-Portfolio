@@ -1,64 +1,18 @@
-# 🌐 3D Portfolio - Samprit Roy
+🚀 3D Portfolio Website
+This is a modern, interactive portfolio website built using React and Framer Motion. The site showcases a collection of personal and professional projects through cleanly designed animated cards. Each project card includes the project title, description, preview image, and external links (if available).
 
-Welcome to my interactive **3D Developer Portfolio**, built using **React**, **Framer Motion**, and **Three.js**. This project showcases my skills, projects, and personality in a visually engaging and responsive format.
+The layout is responsive and grid-based, making it look great on both desktop and mobile devices. A special transparent card labeled "Coming Soon" is always shown at the end, indicating that more exciting projects are in progress and will be added soon.
 
-![screenshot](./public/portfolio-screenshot.png) <!-- Replace with actual screenshot if available -->
+This project focuses on smooth animations, a user-friendly interface, and minimal yet engaging design. All components are modular and reusable, making it easy to expand or customize.
 
----
+✨ Features:
+React + Framer Motion animations
 
-## 🚀 Live Demo
+Dynamic project card rendering
 
-👉 [View Live Portfolio](https://your-live-demo-link.com)  
-_(Replace with your deployed link once live)_
+Responsive grid layout
 
----
+A transparent "Coming Soon" card
 
-## 🛠️ Tech Stack
-
-- ⚛️ **React.js**
-- 🎞️ **Framer Motion**
-- 🌐 **Three.js**
-- 💅 **CSS Modules & Animations**
-- 💡 **Vite** (for blazing fast dev/build)
-- 📁 **Responsive Design**
-
----
-
-## 📂 Features
-
-- 🎨 Light / Dark Theme Toggle (coming soon)
-- 🖼️ Dynamic Project Cards with Animated Scroll
-- 🧭 Interactive 3D Elements (scrollable & animated)
-- 📱 Fully Responsive on all devices
-- 🛠️ “Coming Soon” Project Card that updates dynamically
-
----
-
-## 📸 Gallery Preview
-
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![](./public/light-preview.png) | ![](./public/dark-preview.png) |
-
----
-
-## 🧑‍💻 Author
-
-**Samprit Roy**  
-📧 Email: [sampritroy99@gmail.com](mailto:sampritroy99@gmail.com)  
-📍 Location: Kolkata, India  
-📬 LinkedIn: [linkedin.com/in/samprit-roy](https://linkedin.com/in/samprit-roy)  
-📷 YouTube: [@samprit_contents](https://youtube.com/@samprit_contents)
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🤝 Contributions
-
-Have suggestions or want to collaborate? Feel free to fork and PR, or [open an issue](https://github.com/Samprit74/3D-Portfolio/issues).
+Clean folder structure
 
