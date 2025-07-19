@@ -1,0 +1,382 @@
+.hero {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hImg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 80%;
+    width: max-content;
+}
+
+.hImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.herosection {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding: bottom 10px;
+    padding-left: 10px;
+}
+
+.hTitle {
+    margin-top: 50px;
+    font-size: 100px;
+    color: pink;
+
+}
+
+.hTitle span {
+    color: aliceblue;
+}
+
+.award {
+    width: 30%;
+}
+
+.award p {
+    font-size: 14px;
+    color: aliceblue;
+    margin: 16px 0px;
+
+}
+
+.awardList {
+    display: flex;
+    gap: 8px;
+}
+
+.awardList img {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+.scroll {
+    margin-bottom: 80%;
+    Width: max-content;
+    /* background-color: rebeccapurple; */
+}
+
+
+
+
+.herosection.right {
+    align-items: end;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 12 px;
+    padding: 16px;
+    background-color: #2f204e;
+    border-bottom-right-radius: 10px;
+
+}
+
+.follow img {
+    width: 20px;
+    height: 20px;
+    align-items:safe;
+
+}
+
+.followTextContainer {
+    width: 20px;
+    height: 20px;
+}
+
+.followtext {
+    font-size: 16px;
+    background-color: #dd4c62;
+    rotate: 90deg;
+    width: max-content;
+    height: 100%;
+    transform-origin: left top;
+    transform: translateY(-28px);
+   padding: 0 18px 0 6px;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+}
+
+.bubblecontainer {
+    width: 50%;
+    align-items: end;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.bubble {
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+    color: #080404dd;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 20px 20px 0px 20px;
+
+}
+
+.bubblecontainer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+    background-color: #dd4c62;
+}
+
+.certificate {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.certificate img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.contactLink {
+    margin-bottom: 50px;
+     cursor: pointer;
+  background-color: transparent; /* Default background */
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  padding: 30px;
+  display: inline-block;
+ border-bottom: solid transparent;
+/* border-top-left-radius: 1px;
+border-top-right-radius: 1px;
+border-bottom-right-radius: 1px;
+border-bottom-left-radius: 1px; */
+}
+
+.contactBTN {
+    position: relative;
+    width: 150px;
+    height: 150px;border-color: #2f204e;
+}
+
+.circleText {
+    letter-spacing: 4px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.arrow svg {
+    width: 100%;
+    height: 100%;
+    stroke: rgb(19, 20, 21);
+    /* Changed from black to white for better visibility */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    /* background-color: #2f204e; */
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width:1536px) {
+    .hTitle {
+        font-size: 72px;
+    }
+}
+
+@media (max-width:1280px) {
+    .bg {
+        height: 60%;
+        top: auto;
+        bottom: 0;
+    }
+
+    .hImg {
+        height: 100px;
+        width: 60px;
+    }
+
+    .hTitle {
+        font-size: 88px;
+    }
+
+    .award {
+        width: 60%;
+
+    }
+
+    .bubblecontainer {
+        width: 100%
+    }
+}
+
+@media (max-width:1024px) {
+    .bg {
+        height: 50%;
+    }
+
+    .hTitle {
+        font-size: 72px;
+    }
+    .hImg{
+        height: 70%;
+        width: 50%;
+    }
+}
+
+@media (max-width:768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .bg {
+        height: 60%;
+    }
+
+    .herosection {
+        width: 100%;
+    }
+
+    .herosection.right {
+        align-items: center;
+        text-align: center;
+        gap: 36px;
+        justify-content: end;
+    }
+
+    .hTitle {
+        font-size: 48px;
+    }
+
+    .award {
+        width: 100%;
+        padding-left: 40px;
+        font-weight: bolder;
+    }
+
+    .awardList {
+        justify-content: center;
+    }
+
+    .follow,
+    .bubblecontainer,
+    .certificate {
+        display: none;
+    }
+
+}
+
+/* //contact icons */
+.awardList {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-button {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* LinkedIn icon (1st child) */
+.awardList a:nth-child(1) .icon-button:hover {
+    transform: rotate(10deg) scale(1.3);
+    color: #0a66c2;
+}
+
+/* GitHub icon (2nd child) */
+.awardList a:nth-child(2) .icon-button:hover {
+    transform: scale(1.2) translateY(-4px);
+    color: #333;
+}
+
+/* Twitter icon (3rd child) */
+.awardList a:nth-child(3) .icon-button:hover {
+    transform: rotate(-10deg) scale(1.2);
+    color: #1da1f2;
+}
+
+
+
+.socialIcon:hover {
+  transform: scale(1.2);
+}
+
+/* Hover brand colors */
+.socialIcon.instagram:hover {
+  color: #ce9744;
+}
+
+.socialIcon.facebook:hover {
+  color: #1877f2;
+}
+
+.socialIcon.youtube:hover {
+  color: #ff0000;
+}
+/* //cv animation */
+@keyframes dramaticPop {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  5% {
+    transform: scale(1.2) rotate(5deg);
+  }
+  10% {
+    transform: scale(1.2) rotate(-5deg);
+  }
+  15% {
+    transform: scale(1.2) rotate(5deg);
+  }
+  20% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.certificate {
+  animation: dramaticPop 3.1s infinite;
+}

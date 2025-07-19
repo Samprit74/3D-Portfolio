@@ -1,0 +1,74 @@
+
+.contact {
+  height: 100vh; /* ✅ fixed height for snap */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  /* overflow: hidden; */
+  position: relative;
+  gap: 100px;
+  background: radial-gradient(ellipse at center, #0b0c2a 0%, #050517 100%);
+  scroll-snap-align: center; /* ✅ ensures this section also snaps if isolated */
+}
+
+
+
+/* Left Section */
+.cSection {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03001C; /* <- same as 3D */
+}
+
+/* Right Section */
+.canvasWrapper {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03001C;
+    padding-right: 10px;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea {
+    padding: 12px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: #e9ebd3;       /* Darker form fields for visual harmony */
+    color: rgb(14, 13, 13);
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 13px;
+    color: white;
+}
+
+.formBtn {
+    background-color: #dd4c62;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
